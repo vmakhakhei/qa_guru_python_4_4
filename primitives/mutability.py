@@ -21,7 +21,11 @@ print(b)
 
 # Кортежи, frozenset  - нет
 
+print(frozenset([1, 2, "3", 4, 5]))
+
 a = (1, 2, 3, "4", "5")
+
+
 d = {"key": "value", "first": "second"}
 dd = (("key", "value"), ("first", "second"))
-print(d)
+print()

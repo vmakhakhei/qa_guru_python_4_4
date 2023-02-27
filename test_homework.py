@@ -6,7 +6,7 @@ def test_greeting():
     # TODO Сформируйте нужную строку
     output = ""
     # Проверяем результат
-    assert output == f"Привет, Анна! Тебе 25 лет."
+    assert output == "Привет, Анна! Тебе 25 лет."
 
 
 def test_rectangle():
