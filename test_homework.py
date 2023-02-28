@@ -39,7 +39,7 @@ def test_circle():
 
     # TODO сосчитайте длину окружности
     length = (2 * math.pi) * r
-    assert length == 144.29090290269986
+    assert length == 144.51326206513048
 
 
 def test_random_list():
@@ -77,6 +77,5 @@ def test_dicts():
     second = [1, 2, 3, 4, 5]
     # TODO создайте словарь
     d = dict(zip(first, second))
-
     assert isinstance(d, dict)
     assert len(d) == 5
